@@ -80,19 +80,18 @@
         </section>
 
         <section id="about">
-            <div class="about-container" >
-                <div class=""
+            <div class="about-container">
             <h2>About Me</h2>
-
-            
-
                 <h3>Personal Photo</h3>
-
-                <img
-                    src="images/samrat.jpg"
-                    alt="Profile picture of Samrat Karki"
-                    width="250">
-                
+                <div class="slider" id="slider">
+                    <div class="slide active"><img src="images/samrat.jpg" alt="Samrat Karki"></div>
+                    <div class="slide"><img src="images/profile1.jpeg" alt="Samrat Karki"></div>
+                    <div class="slide"><img src="images/profile2.jpeg" alt="Samrat Karki"></div>
+                    <div class="slide"><img src="images/profile3.jpeg" alt="Samrat Karki"></div>
+                    <button class="slider-btn prev" aria-label="Previous">&#10094;</button>
+                    <button class="slider-btn next" aria-label="Next">&#10095;</button>
+                    <div class="slider-dots"></div>
+                </div>
         
             <p>
                 I am currently pursuing a Bachelor of Business Administration degree.
@@ -333,6 +332,7 @@
 
     </footer>
 
+    <script src="slider.js"></script>
     <script>
         const hamburger = document.getElementById('hamburger');
         const navMenu = document.getElementById('nav-menu');
