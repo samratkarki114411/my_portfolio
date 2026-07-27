@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function startAuto() {
         autoInterval = setInterval(function () {
             showSlide(current + 1);
-        }, 5000);
+        }, 3000);
     }
 
     function resetAuto() {
